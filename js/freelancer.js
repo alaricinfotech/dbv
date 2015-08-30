@@ -41,6 +41,10 @@ $(function(){
   $(window).resize(function(){
     $('#contact').css("min-height", $(window).innerHeight());
   });
+  $('#contactus').css("min-height", $(window).innerHeight());
+  $(window).resize(function(){
+    $('#contactus').css("min-height", $(window).innerHeight());
+  });
 });
 
 $( document ).ready(function() {
